@@ -1,0 +1,92 @@
+body {
+  background-color: #111111;
+  text-align: center;
+}
+
+.colored-text {
+  padding: 3%;
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+}
+
+.image {
+  height: 400px;
+}
+
+.too-great {
+  padding-top: 5%;
+}
+
+.great{
+
+}
+
+.great:hover {
+  color: #fff;
+  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: #fff;
+}
+
+.del {
+  padding-top: 1%;
+}
+
+.na-it {
+  padding: .1rem 0 .1rem 5rem;
+  font-size: 1.25rem;
+}
+
+.na-te {
+  color: #fff;
+}
+
+.na-lo {
+  color : #fff;
+  padding: .1rem 5rem .1rem 0;
+  font-size: 1.1rem;
+}
+
+.na-div {
+  padding: 0 2%;
+  position: fixed;
+}
+
+.na-ba {
+  background-color: #111111;
+}
+
+
+
+@media (max-width: 1028px ) and (min-width: 800px ){
+  .na-it {
+    padding: .1rem 0 .1rem 2rem;
+    font-size: 1.1rem;
+  }
+  .na-lo {
+    padding: .1rem 2.5rem .1rem 0;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 800px ) {
+  .na-it {
+    padding: .1rem 0 .1rem .8rem;
+    font-size: 1.18rem;
+  }
+  .na-lo {
+    padding: .1rem 2rem .1rem 0;
+    font-size: 1.2rem;
+  }
+}
+
+.to-co {
+  padding-top: 150px;
+}
